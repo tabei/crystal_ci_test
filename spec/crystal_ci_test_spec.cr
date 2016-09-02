@@ -3,7 +3,7 @@ require "./spec_helper"
 describe CrystalCiTest::FizzBuzz do
   describe "fizzbuzz" do
     it "FizzBuzz" do
-      CrystalCiTest::FizzBuzz.call(14).should eq("FizzBuzz")
+      CrystalCiTest::FizzBuzz.call(15).should eq("FizzBuzz")
     end
     it "Buzz" do
       CrystalCiTest::FizzBuzz.call(5).should eq("Buzz")
