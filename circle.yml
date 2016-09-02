@@ -1,0 +1,4 @@
+test:
+  override:
+    - crystal spec --junit_output $CIRCLE_TEST_REPORTS/junit/test-results.xml
+

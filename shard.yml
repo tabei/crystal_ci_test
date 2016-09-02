@@ -1,0 +1,7 @@
+name: crystal_ci_test
+version: 0.1.0
+
+authors:
+  - tabei
+
+license: MIT
